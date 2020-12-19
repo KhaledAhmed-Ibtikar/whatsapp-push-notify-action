@@ -6,9 +6,7 @@
   </a>
 </p>
 
-> A github action which sends a Whatsapp message when code is pushed to a repository.
-
-### :house_with_garden: [Homepage](https://github.com/ishween/whatsapp-push-notify-action)
+> A github action which sends a custom Whatsapp message using Twilio bot, forked from https://github.com/ishween/whatsapp-push-notify-action
 
 ### Usage
 1. Create account in twilio [here](https://www.twilio.com/).  
@@ -32,26 +30,9 @@ jobs:
           to_whatsapp_no: ${{ secrets.to_whatsapp_no }}
 
 
-        uses: ishween/whatsapp-push-notify-action@master
-      
-      - name : Run
-        run: |
-          echo 'Start!'
+        uses: khaled-ibtikar/whatsapp-push-notify-action@master
+    
 ```
-
-# Whatsapp Push Notifier Output
-
-![whatsapp-push-notify-screenshot](https://github.com/ishween/whatsapp-push-notify-action/blob/master/whatsapp-push-notify.png)
-
-## Author
-
-:woman_technologist: **Ishween Kaur**
-
-* Github: [@ishween](https://github.com/ishween)
-
-## Show your support
-
-Give a :star2: if this project helped you!
 
 ## 📝 License
 

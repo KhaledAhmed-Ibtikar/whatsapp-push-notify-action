@@ -1,0 +1,2 @@
+- name: Push notification on Whatsapp with custom messages
+  uses: KhaledAhmed-Ibtikar/whatsapp-push-notify-action@1.3
